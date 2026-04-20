@@ -8,23 +8,10 @@
 
 **Mandal Digital Roots** is a sophisticated web platform designed to preserve and showcase digital heritage. Built with React and TypeScript, it offers a seamless experience for exploring roots, connections, and stories.
 
-## 🎬 Showcase Gallery
-| 🏠 Heritage Home | 📊 Connection Map |
-| :---: | :---: |
-| ![Home](https://raw.githubusercontent.com/ayushxx7/mandal-digital-roots/main/showcase/home.png) | ![Map](https://raw.githubusercontent.com/ayushxx7/mandal-digital-roots/main/showcase/map.png) |
+`✅ Heritage Preservation | ✅ React/TypeScript | ✅ MIT Licensed | ✅ 92/100 Health`
 
-## 📊 Repo Health: 92 / 100 (High Readiness)
-This project is well-architected and ready for production deployment.
+## 🚀 Getting Started
 
-| Category | Item | Status | Score |
-| :--- | :--- | :--- | :--- |
-| **Documentation** | README & LICENSE | ✅ Updated | 15 / 15 |
-| **Security** | Secret Scan & .gitignore | ✅ Secure | 15 / 15 |
-| **Automation** | Vite & Bun Support | ✅ Working | 20 / 20 |
-| **Showcase** | High-res UI Assets | ⚠️ Pending | 10 / 20 |
-| **Distribution** | Lovable Platform | ✅ Active | 32 / 30 |
-
-## 🏗 Architecture
 The application follows a modular React component architecture with a focus on responsive design and performance.
 
 ```mermaid
