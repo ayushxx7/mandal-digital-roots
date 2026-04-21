@@ -8,8 +8,6 @@
 
 **Mandal Digital Roots** is a sophisticated web platform designed to preserve and showcase digital heritage. Built with React and TypeScript, it offers a seamless experience for exploring roots, connections, and stories.
 
-`✅ Heritage Preservation | ✅ React/TypeScript | ✅ MIT Licensed | ✅ 92/100 Health`
-
 ## ✨ Visual Showcase
 
 ### 🖥️ Desktop Experience
@@ -38,8 +36,6 @@
 ## 🚀 Deployment
 
 This project is automatically built and deployed to **GitHub Pages** on every push to the `main` branch.
-
-**Live Link**: [https://ayushxx7.github.io/mandal-digital-roots/](https://ayushxx7.github.io/mandal-digital-roots/)
 
 ## 📦 How to run locally
 
