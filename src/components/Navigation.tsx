@@ -78,7 +78,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
                       onTabChange(item.id);
                       setIsMenuOpen(false);
                     }}
-                    className={`w-full flex items-center space-x-3 px-3 py-2 rounded-lg transition-smooth ${
+                    className={`w-full flex items-center space-x-3 px-3 py-2 rounded-lg transition-smooth outline-none ${
                       activeTab === item.id
                         ? 'bg-primary text-primary-foreground'
                         : 'hover:bg-muted'
@@ -91,7 +91,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
               })}
               <button
                 onClick={toggleLanguage}
-                className="w-full flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-muted transition-smooth sm:hidden"
+                className="w-full flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-muted transition-smooth outline-none sm:hidden"
               >
                 <Globe className="h-5 w-5" />
                 <span>Language: {language === 'EN' ? 'English' : 'हिन्दी'}</span>
@@ -122,7 +122,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
               <button
                 key={item.id}
                 onClick={() => onTabChange(item.id)}
-                className={`w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-smooth hover-lift ${
+                className={`w-full flex items-center space-x-3 px-4 py-3 rounded-lg transition-smooth outline-none hover-lift ${
                   activeTab === item.id
                     ? 'bg-primary text-primary-foreground shadow-cultural'
                     : 'hover:bg-muted'
@@ -156,7 +156,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
               <button
                 key={item.id}
                 onClick={() => onTabChange(item.id)}
-                className={`flex flex-col items-center space-y-1 px-2 py-2 rounded-lg transition-smooth ${
+                className={`flex flex-col items-center space-y-1 px-2 py-2 rounded-lg transition-smooth outline-none ${
                   activeTab === item.id
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
