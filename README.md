@@ -35,42 +35,28 @@
 | **Accessibility** | ⚠️ Warn | Semantic markup is strong; contrast ratios look good but should be verified. |
 | **Responsiveness** | ✅ Pass | Full mobile support with a clean bottom navigation pattern. |
 
-## 🚀 Getting Started
+## 🚀 Deployment
 
-The application follows a modular React component architecture with a focus on responsive design and performance.
+This project is automatically built and deployed to **GitHub Pages** on every push to the `main` branch.
 
-```mermaid
-graph TD
-    A[Vite/Bun] --> B[App Layout]
-    B --> C[Navigation Engine]
-    B --> D[Content Pages]
-    D --> E[Shadcn UI Primitives]
-    B --> F[Custom State Hooks]
-```
+**Live Link**: [https://ayushxx7.github.io/mandal-digital-roots/](https://ayushxx7.github.io/mandal-digital-roots/)
 
-### Core Components
-- **Visual Layer (`src/components/`)**: Functional components for layout, navigation, and specific heritage features.
-- **UI Kit (`src/components/ui/`)**: Reusable shadcn/ui components for a consistent aesthetic.
-- **Routing Engine (`src/pages/`)**: Managed routes for home, map, and detail views.
-- **Business Logic (`src/hooks/`)**: Custom React hooks for managing interactive states and data flow.
+## 📦 How to run locally
 
-## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ayushxx7/mandal-digital-roots.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4d1be815-81d2-4285-afc4-270929653280) and click on Share -> Publish.
-
-## 📜 License
+## 🏷️ Release
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
