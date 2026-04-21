@@ -10,6 +10,31 @@
 
 `✅ Heritage Preservation | ✅ React/TypeScript | ✅ MIT Licensed | ✅ 92/100 Health`
 
+## ✨ Visual Showcase
+
+### 🖥️ Desktop Experience
+| 🏠 Landing Page | 📅 Events & Activities |
+| :---: | :---: |
+| ![Landing Page](showcase/landing.png) | ![Events](showcase/events.png) |
+
+| 👥 Member Directory | 📸 Community Gallery |
+| :---: | :---: |
+| ![Directory](showcase/directory.png) | ![Gallery](showcase/gallery.png) |
+
+### 📱 Mobile View
+| 📱 Responsive Design |
+| :---: |
+| ![Mobile View](showcase/mobile_landing.png) |
+
+## 🎨 UI/UX Audit
+
+| Pillar | Status | Notes |
+| :--- | :---: | :--- |
+| **Visual Hierarchy** | ✅ Pass | Clear distinction between headings, navigation, and content cards. |
+| **Visual Style** | ✅ Pass | Consistent branding with `shadow-elegant` and cultural color palettes. |
+| **Accessibility** | ⚠️ Warn | Semantic markup is strong; contrast ratios look good but should be verified. |
+| **Responsiveness** | ✅ Pass | Full mobile support with a clean bottom navigation pattern. |
+
 ## 🚀 Getting Started
 
 The application follows a modular React component architecture with a focus on responsive design and performance.
